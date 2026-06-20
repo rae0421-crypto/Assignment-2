@@ -1,5 +1,4 @@
-import torch.nn as nn
+from cnn import SimpleCNN
 
 def get_model(model_name):
-    model = SimpleCNN()
-    return model
+    return SimpleCNN()
